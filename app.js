@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(cors());
 
 
-const PORT = 3800;
+const PORT = process.env.PORT || 3800;
 
 const uri = process.env.MONGO_DB;
 
