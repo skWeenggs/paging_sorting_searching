@@ -37,7 +37,7 @@ connection.once("open", () => {
 });
 
 mongoose.connection.on("disconnected",()=>{
-  console.log("Mogoodb connection disconnected");
+  console.log("Mogoodb connection disconnect");
 })
 
 //INSERT
